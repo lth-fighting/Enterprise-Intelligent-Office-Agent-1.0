@@ -136,7 +136,7 @@
 
 ```bash
 git clone https://github.com/lth-fighting/Enterprise-Intelligent-Office-Agent-1.0.git
-cd your-repo-name
+cd Enterprise-Intelligent-Office-Agent-1.0
 ```
 
 ### 2. 安装依赖
