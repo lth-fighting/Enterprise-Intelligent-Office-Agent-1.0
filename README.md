@@ -1,4 +1,4 @@
-# 🧠 企业智能办公系统
+# 🧠 企业智能办公智能体
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
 [![LangChain](https://img.shields.io/badge/LangChain-00C2FF?style=for-the-badge)](https://www.langchain.com/)
