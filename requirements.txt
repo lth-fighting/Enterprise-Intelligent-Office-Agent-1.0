@@ -1,0 +1,28 @@
+streamlit==1.32.0
+langchain==0.1.13
+langchain-community==0.0.29
+langchain-openai==0.0.8
+chromadb==0.4.22
+sentence-transformers==2.5.1
+torch==2.2.1
+torchvision==0.17.1
+torchaudio==2.2.1
+SpeechRecognition==3.10.1
+pydub==0.25.1
+pyaudio==0.2.13
+requests==2.31.0
+sqlite3== # 通常为Python内置库
+tqdm==4.66.2
+unstructured==0.15.2
+unstructured[pdf]==0.15.2
+unstructured[docx]==0.15.2
+pypdf==3.17.4
+docx2txt==0.8
+python-dotenv==1.0.1
+numpy==1.26.4
+pandas==2.2.1
+openai==1.12.0
+# 以下为可选依赖，用于提高性能或特定功能
+faiss-cpu==1.7.4  # 如需FAISS向量检索支持
+accelerate==0.27.2  # 用于模型加速
+transformers==4.38.2  # 用于本地模型运行
