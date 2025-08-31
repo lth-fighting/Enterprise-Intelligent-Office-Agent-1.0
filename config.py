@@ -4,12 +4,12 @@ import streamlit as st
 # DeepSeek 基址
 DEEPSEEK_URL = "https://api.deepseek.com"
 # DeepSeek api_key
-DEEPSEEK_KEY = "sk-6321ebc75a0741e68625b92c48cb6e61"
+DEEPSEEK_KEY = "sk-your-deepseek-api-key"
 
 # 百度语音识别 api_key
-BAIDU_API_KEY = "ZbEtvjFWgISwPI4Tx57yDktK"
+BAIDU_API_KEY = "your-baidu-api-key"
 # 百度语音识别密钥
-BAIDU_SECRET_KEY = "gluEnomWD2VHccGtBSUe7J7DDW91Rydp"
+BAIDU_SECRET_KEY = "your-baidu-secret-key"
 
 # 向量嵌入模型
 EMBEDDING_MODEL = "./bge-small-zh-v1.5"
@@ -105,3 +105,4 @@ def init_session_status(reset=False):
         st.session_state.processed_voice_files = {}
     if "meeting_history" not in st.session_state:
         st.session_state.meeting_history = []
+
